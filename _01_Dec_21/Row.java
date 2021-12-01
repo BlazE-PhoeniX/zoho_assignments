@@ -1,5 +1,3 @@
-package assignments.zoho._01_Dec_21;
-
 public class Row {
     protected final int id;
 

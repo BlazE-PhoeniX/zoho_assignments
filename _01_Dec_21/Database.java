@@ -1,5 +1,3 @@
-package assignments.zoho._01_Dec_21;
-
 import java.util.ArrayList;
 
 public class Database<T extends Row> {

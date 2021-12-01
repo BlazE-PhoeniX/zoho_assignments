@@ -1,5 +1,3 @@
-package assignments.zoho._01_Dec_21;
-
 import java.util.Objects;
 
 public class StudentDatabase extends Database<Student> {

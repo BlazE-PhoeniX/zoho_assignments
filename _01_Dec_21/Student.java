@@ -1,5 +1,3 @@
-package assignments.zoho._01_Dec_21;
-
 public class Student extends Row{
     private final String name;
     private final String dept;
