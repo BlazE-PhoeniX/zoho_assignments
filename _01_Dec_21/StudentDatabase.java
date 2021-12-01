@@ -70,10 +70,10 @@ public class StudentDatabase extends Database<Student> {
     public void printDatabase() {
         System.out.println("Database name: " + name);
         System.out.println("----------------------------");
-        System.out.println("  id  |  name  ");
+        System.out.println("  id  |  name  |  dept  ");
         System.out.println("----------------------------");
         for(Student st: super.rows) {
-            System.out.printf("  %2d  |  %s  \n", st.getId(), st.getName());
+            System.out.printf("  %2d  |  %s  |  %s  \n", st.getId(), st.getName(), st.getDept());
         }
         System.out.println("----------------------------\n");
     }
