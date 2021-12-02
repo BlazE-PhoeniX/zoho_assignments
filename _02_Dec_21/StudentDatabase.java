@@ -62,7 +62,7 @@ public class StudentDatabase extends Database<Student> implements Sortable<Stude
         return false;
     }
 
-    public void printDatabase(ArrayList<Student> rows) {
+    private void printDatabase(ArrayList<Student> rows) {
         System.out.println("Database name: " + getName());
         System.out.println("----------------------------");
         System.out.println("  id  |  name  |  dept  ");
